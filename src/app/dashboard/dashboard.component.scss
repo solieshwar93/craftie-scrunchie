@@ -1,0 +1,116 @@
+
+$primary-bg: #fff5f5;
+$card-bg: #fff;
+$accent: #ffb3b3;
+$text: #5a2323;
+$title: #d7263d;
+
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+  background: #f3f0fa;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 1px 6px rgba(124, 110, 159, 0.04);
+  label {
+    color: $title;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  select {
+    border: 1px solid #e0c3fc;
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 1rem;
+    background: #fff;
+    color: $text;
+    outline: none;
+    transition: border 0.2s;
+    &:focus {
+      border: 1.5px solid $accent;
+    }
+  }
+}
+
+.scrunchie-sizes {
+  margin: 0.5rem 0 0.2rem 0;
+  font-size: 0.98rem;
+  color: #3a5a7c;
+  .size-label {
+    font-weight: 500;
+    color: #3a5a7c;
+    margin-right: 0.2rem;
+  }
+  .size-price {
+    color: #5fa8d3;
+    font-weight: 500;
+    margin-right: 0.5rem;
+  }
+}
+
+.dashboard-container {
+  // background: $primary-bg url('/assets/images/background.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-title {
+  color: $title;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.scrunchies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.scrunchie-card {
+  background: $card-bg;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(124, 110, 159, 0.08);
+  padding: 1.5rem;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+  border: 1px solid #ece6f6;
+  &:hover {
+    box-shadow: 0 4px 24px rgba(124, 110, 159, 0.13);
+  }
+}
+
+.scrunchie-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  border: 3px solid #5fa8d3; /* subtle blue */
+  box-shadow: 0 4px 24px rgba(95, 168, 211, 0.10);
+  transition: transform 0.2s;
+}
+
+.scrunchie-info {
+  text-align: center;
+  color: $text;
+}
+
+.scrunchie-price {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: $accent;
+  font-weight: 500;
+  font-size: 1.1rem;
+}

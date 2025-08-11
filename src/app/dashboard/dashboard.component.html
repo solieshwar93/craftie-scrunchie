@@ -1,0 +1,25 @@
+<div class="dashboard-container">
+  <h2 class="dashboard-title">Scrunchies Catalog</h2>
+  <div class="filter-bar">
+    <label for="typeFilter">Filter by Type:</label>
+    <select id="typeFilter" [(ngModel)]="selectedType">
+      <option *ngFor="let type of types" [value]="type">{{ type }}</option>
+    </select>
+  </div>
+  <div class="scrunchies-list">
+    <div class="scrunchie-card" *ngFor="let scrunchie of filteredScrunchies">
+      <img [src]="scrunchie.image" [alt]="scrunchie.name" class="scrunchie-image" />
+      <div class="scrunchie-info">
+        <h3>{{ scrunchie.name }}</h3>
+        <p>{{ scrunchie.description }}</p>
+        <div class="scrunchie-sizes">
+          <span>Sizes &amp; Prices: </span>
+          <span *ngFor="let size of scrunchie.sizes; let last = last">
+            <span class="size-label">{{ size.name }}</span>
+            <span class="size-price">{{ size.price }}</span><span *ngIf="!last">, </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
