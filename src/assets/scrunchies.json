@@ -1,0 +1,376 @@
+
+{
+  "scrunchies": [
+    {
+      "name": "Tango Pink",
+      "image": "assets/images/tango-pink.jpeg",
+      "description": "A vibrant pink velvet scrunchie that adds a pop of color and energy to any hairstyle.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Pastel Green",
+      "image": "assets/images/pastel-green.jpeg",
+      "description": "A gentle pastel green cotton scrunchie, ideal for a calm, fresh, and natural look.",
+      "sizes": [
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Wintergreen White",
+      "image": "assets/images/wintergreeen-white.jpeg",
+      "description": "A silky white scrunchie with a wintergreen tint, perfect for elegant and cool-toned outfits.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Silk"
+    },
+    {
+      "name": "Misty Grey",
+      "image": "assets/images/misty-grey.jpeg",
+      "description": "A pure white silk scrunchie inspired by alabaster stone, perfect for a clean, classic, and graceful finish.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Silk"
+    },
+    {
+      "name": "Alabaster White",
+      "image": "assets/images/alabaster.jpeg",
+      "description": "A pure white silk scrunchie inspired by alabaster stone, perfect for a clean, classic, and graceful finish.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Silk"
+    },
+    {
+      "name": "Wisteria Purple",
+      "image": "assets/images/wisteria-purple.jpeg",
+      "description": "A dreamy wisteria purple satin scrunchie, bringing a touch of floral elegance and whimsical charm to your style.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "French Beige",
+      "image": "assets/images/french-beige.jpeg",
+      "description": "A soft beige satin scrunchie inspired by classic French elegance, perfect for a subtle, neutral, and sophisticated look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Honey Gold",
+      "image": "assets/images/honey-gold.jpeg",
+      "description": "A rich honey gold satin scrunchie that radiates warmth and luxury, perfect for adding a golden glow to any hairstyle.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Smoky Peach",
+      "image": "assets/images/smoky-peach.jpeg",
+      "description": "A soft smoky peach satin scrunchie with a gentle, warm hue—perfect for a subtle, romantic, and modern look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Azure Blue",
+      "image": "assets/images/azure-blue.jpeg",
+      "description": "A cool azure blue satin scrunchie inspired by clear summer skies, perfect for a fresh, bold, and uplifting style.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Daffodil Yellow",
+      "image": "assets/images/daffodil-yellow.jpeg",
+      "description": "A bright daffodil yellow satin scrunchie that brings a burst of sunshine and cheer to your look—perfect for a lively, happy, and energetic style.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Pista Green",
+      "image": "assets/images/pista-green.jpeg",
+      "description": "A refreshing pista green satin scrunchie inspired by pistachio hues, perfect for a soft, natural, and calming style.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Baize Brown",
+      "image": "assets/images/baize-brown.jpeg",
+      "description": "A deep baize brown satin scrunchie with earthy tones, perfect for a grounded, classic, and versatile look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Antique Gold",
+      "image": "assets/images/antique-gold.jpeg",
+      "description": "An elegant antique gold satin scrunchie with a vintage-inspired shimmer, perfect for a regal, timeless, and luxurious look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Maple Brown",
+      "image": "assets/images/maple-brown.jpeg",
+      "description": "A warm maple brown satin scrunchie inspired by autumn leaves, perfect for a cozy, rustic, and stylish look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Teal Leaf Swirl",
+      "image": "assets/images/teal-leaf-swirl.jpeg",
+      "description": "A vibrant teal silk scrunchie with swirling leaf patterns—perfect for a fresh, artistic, and nature-inspired look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Silk"
+    },
+    {
+      "name": "Midnight Lace",
+      "image": "assets/images/midnight-lace.jpeg",
+      "description": "A luxurious midnight black satin scrunchie with delicate lace accents—perfect for an elegant, mysterious, and evening-ready look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Lace Satin"
+    },
+    {
+      "name": "Mystic Jungle",
+      "image": "assets/images/mystic-jungle.jpeg",
+      "description": "A mysterious deep green satin scrunchie reminiscent of hidden jungle paths—perfect for a bold, adventurous, and earthy style.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Organza"
+    },
+    {
+      "name": "Dreamy Flora",
+      "image": "assets/images/dreamy-flora.jpeg",
+      "description": "A delicate floral silk scrunchie with pastel blooms—perfect for a dreamy, romantic, and feminine style.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Organza"
+    },
+    {
+      "name": "Ocean Breeze",
+      "image": "assets/images/ocean-breeze.jpeg",
+      "description": "A cool blue silk scrunchie inspired by ocean waves—perfect for a refreshing, tranquil, and beachy style.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Organza"
+    },
+    {
+      "name": "Cosmic Tide",
+      "image": "assets/images/cosmic-tide.jpeg",
+      "description": "A mesmerizing silk scrunchie with cosmic blue and red swirls—perfect for a celestial, modern, and statement look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Silk"
+    },
+    {
+      "name": "Rosewood Dream",
+      "image": "assets/images/rosewood-dream.jpeg",
+      "description": "A rich rosewood Satin scrunchie with deep red and pink tones—perfect for a sophisticated, warm, and dreamy look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Lavender Blush",
+      "image": "assets/images/lavender-blush.jpeg",
+      "description": "A soft lavender satin scrunchie with a gentle blush tint—perfect for a sweet, elegant, and feminine style.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Ladybug Lush",
+      "image": "assets/images/ladybug-lush.jpeg",
+      "description": "A playful Satin scrunchie with bold red and black spots—perfect for a fun, lively, and whimsical style inspired by ladybugs.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Ruby Rays",
+      "image": "assets/images/ruby-rays.jpeg",
+      "description": "A radiant satin scrunchie in deep ruby red, capturing the brilliance and energy of sunlit ruby rays—perfect for a bold, glamorous, and striking look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Monochrome Maven",
+      "image": "assets/images/monochrome-maven.jpeg",
+      "description": "A chic satin scrunchie in classic black and white, perfect for a modern, sophisticated, and effortlessly stylish monochrome look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Olive Swirl",
+      "image": "assets/images/olive-swirl.jpeg",
+      "description": "A stylish satin scrunchie featuring swirling olive green tones—perfect for a fresh, earthy, and artistic look inspired by nature.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Sunset Canopy",
+      "image": "assets/images/sunset-canopy.jpeg",
+      "description": "A vibrant satin scrunchie with warm sunset hues, evoking the beauty of a glowing sky beneath a leafy canopy—perfect for a radiant, dreamy, and nature-inspired look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Onyx Ember",
+      "image": "assets/images/onyx-ember.jpeg",
+      "description": "A striking satin scrunchie blending deep onyx black with glowing ember accents—perfect for a bold, dramatic, and fiery style inspired by glowing coals.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Whimsy Wave",
+      "image": "assets/images/whimsy-wave.jpeg",
+      "description": "A vibrant satin scrunchie with warm sunset hues, evoking the beauty of a glowing sky beneath a leafy canopy—perfect for a radiant, dreamy, and nature-inspired look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Sunrise Serenity",
+      "image": "assets/images/sunrise-serenity.jpeg",
+      "description": "A vibrant satin scrunchie with warm sunset hues, evoking the beauty of a glowing sky beneath a leafy canopy—perfect for a radiant, dreamy, and nature-inspired look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Petal Plush",
+      "image": "assets/images/petal-plush.jpeg",
+      "description": "A vibrant satin scrunchie with warm sunset hues, evoking the beauty of a glowing sky beneath a leafy canopy—perfect for a radiant, dreamy, and nature-inspired look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Oasis Wave",
+      "image": "assets/images/oasis-wave.jpeg",
+      "description": "A chic satin scrunchie in classic black and white, perfect for a modern, sophisticated, and effortlessly stylish monochrome look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ],
+      "type": "Satin"
+    },
+    {
+      "name": "Rainbow Ruffle",
+      "image": "assets/images/rainbow-ruffle.jpeg",
+      "description": "A chic satin scrunchie in classic black and white, perfect for a modern, sophisticated, and effortlessly stylish monochrome look.",
+      "sizes": [
+        { "name": "Small", "price": "₹30" },
+        { "name": "Medium", "price": "₹40" },
+        { "name": "Large", "price": "₹50" }
+      ]
+    }
+  ]
+}
